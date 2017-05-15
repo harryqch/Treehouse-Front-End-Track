@@ -1,0 +1,182 @@
+/**************************************************
+GENERAL
+**************************************************/
+body{
+  background-color: #fff;
+  color:#999;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+h3{
+  margin: 0 0 1em 0;
+}
+
+/**************************************************
+TOP HEADING
+**************************************************/
+header{
+  background: linear-gradient(#fff 10%,#c75f12, transparent 95%)
+              ,linear-gradient(0deg, #fff, transparent 95%)
+              ,#c75f12;
+  border-bottom: 2px solid #599a68;
+  margin: 0 0 20px 0;
+  padding: 5px 0 0 0;
+  float: left;
+  width: 100%;
+}
+
+#logo{
+  text-align: center;
+  margin: 0;
+}
+
+h1, h2{
+  font-family: 'Dosis', sans-serif;
+  line-height: 0.8em;
+  color: #fff;
+}
+
+h1{
+  font-size: 2.5em;
+  margin: 20px 0;
+  text-shadow: 3px 3px 0 #000;
+}
+
+h2{
+  font-weight: normal;
+  font-size: 2em;
+  margin: -5px 0 0;
+}
+
+/**************************************************
+NAVIGATION BAR
+**************************************************/
+nav{
+  background-color: #599a68;
+  margin: 20px 0 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+}
+
+/*All anchors should not be underlined, and coloured white unless specified otherwise*/
+a{
+  text-decoration: none;
+  color: #aaf35f;
+}
+
+/*Sets nav links to white and keeps white if link visited*/
+nav a, nav a:visited {
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: 800;
+}
+
+/*Sets nav links to green if currently on that page or if link hovered over*/
+nav a.selected_page, nav a:hover{
+  border-bottom-style: solid;
+  border-bottom-color: #f5a345;
+}
+
+/**************************************************
+MAIN CONTENT
+**************************************************/
+#wrapper{
+  max-width:940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+/*Portfolio Specific*/
+#portfolio{
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+#portfolio li{
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color:#f5f5f5;
+  color: #bdc3c7;
+}
+
+#portfolio li a p{
+  margin: 0;
+  padding: 5%;
+  font-size: 1.25em;
+  color:#32673f;
+}
+
+/*About Page Specific*/
+#profile-photo{
+  display: block;
+  max-width: 200px;
+  margin: 0 auto 30px;
+  border-radius: 10%;
+}
+
+#about-section li{
+  list-style-position: inside;
+  padding: 7px 0px;
+}
+
+/*Contact Page Specific*/
+.contact-info{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a{
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a{
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.email a{
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a{
+  background-image: url('../img/twitter.png');
+}
+
+/**************************************************
+FOOTER
+**************************************************/
+footer{
+  text-align: center;
+  clear: both;
+  font-size: 0.75em;
+  padding-top: 50px;
+  color:#ccc;
+}
+
+.social-icon{
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
